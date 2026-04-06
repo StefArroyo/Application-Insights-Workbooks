@@ -29,9 +29,6 @@
             "type": 4,
             "isRequired": true,
             "isGlobal": true,
-            "value": {
-              "durationMs": 14400000
-            },
             "typeSettings": {
               "selectableValues": [
                 {
@@ -69,6 +66,10 @@
             },
             "timeContext": {
               "durationMs": 86400000
+            },
+            "value": {
+              "durationMs": 19669143,
+              "endTime": "2026-03-31T00:21:13.664Z"
             }
           },
           {
@@ -352,8 +353,8 @@
             "id": "6d922578-40b4-4c73-b3cb-71e32ec312d1",
             "cellValue": "selectedTab",
             "linkTarget": "parameter",
-            "linkLabel": "Management Operations",
-            "subTarget": "Account Audit",
+            "linkLabel": "Partition Info",
+            "subTarget": "PartitionInfo",
             "style": "link"
           }
         ]
@@ -454,14 +455,14 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-TotalRequests",
-                  "aggregation": 7,
-                  "splitBy": null
+                  "aggregation": 7
                 }
               ],
               "title": "Total Requests {DatabaseText} {ContainerText}",
@@ -508,14 +509,14 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-DataUsage",
                   "aggregation": 4,
-                  "splitBy": null,
                   "columnName": ""
                 },
                 {
@@ -568,14 +569,14 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-TotalRequests",
                   "aggregation": 7,
-                  "splitBy": null,
                   "columnName": "Throttled Requests (429s)"
                 }
               ],
@@ -683,14 +684,14 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-NormalizedRUConsumption",
-                  "aggregation": 3,
-                  "splitBy": null
+                  "aggregation": 3
                 }
               ],
               "title": "Normalized RU Consumption (max) {DatabaseText} {ContainerText} ",
@@ -927,14 +928,17 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-TotalRequests",
                   "aggregation": 7,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 },
@@ -942,7 +946,9 @@
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-DocumentCount",
                   "aggregation": 4,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 },
@@ -950,7 +956,9 @@
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-DataUsage",
                   "aggregation": 4,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 },
@@ -958,7 +966,9 @@
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-IndexUsage",
                   "aggregation": 4,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 },
@@ -966,7 +976,9 @@
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-ProvisionedThroughput",
                   "aggregation": 3,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 },
@@ -974,7 +986,9 @@
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-NormalizedRUConsumption",
                   "aggregation": 3,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 }
@@ -1281,14 +1295,14 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-TotalRequestUnits",
-                  "aggregation": 1,
-                  "splitBy": null
+                  "aggregation": 1
                 }
               ],
               "title": "Total Request Units {DatabaseText} {ContainerText} ",
@@ -1318,6 +1332,59 @@
           {
             "type": 10,
             "content": {
+              "chartId": "workbookbadbbee7-a652-4c9d-9fd8-8fcb0b92033d",
+              "version": "MetricsItem/2.0",
+              "size": 1,
+              "chartType": 2,
+              "resourceType": "microsoft.documentdb/databaseaccounts",
+              "metricScope": 0,
+              "resourceParameter": "Resources",
+              "resourceIds": [
+                "{Resources}"
+              ],
+              "timeContextFromParameter": "TimeRange",
+              "timeContext": {
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
+              },
+              "metrics": [
+                {
+                  "namespace": "microsoft.documentdb/databaseaccounts",
+                  "metric": "microsoft.documentdb/databaseaccounts-Requests-TotalRequestUnits",
+                  "aggregation": 1,
+                  "splitBy": [
+                    "OperationType",
+                    "StatusCode"
+                  ]
+                }
+              ],
+              "title": "Total Request Units by Operation, Status Code{DatabaseText} {ContainerText} ",
+              "showOpenInMe": true,
+              "filters": [
+                {
+                  "id": "1",
+                  "key": "CollectionName",
+                  "operator": 0,
+                  "valueParam": "Container"
+                },
+                {
+                  "id": "2",
+                  "key": "DatabaseName",
+                  "operator": 0,
+                  "valueParam": "Database"
+                }
+              ],
+              "timeBrushParameterName": "TimeRange",
+              "timeBrushExportOnlyWhenBrushed": true,
+              "gridSettings": {
+                "rowLimit": 10000
+              }
+            },
+            "name": "metric - 4 - Copy"
+          },
+          {
+            "type": 10,
+            "content": {
               "chartId": "workbooka2dd69fc-4878-4aa5-833d-645751b6b40b",
               "version": "MetricsItem/2.0",
               "size": 1,
@@ -1330,14 +1397,14 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-NormalizedRUConsumption",
-                  "aggregation": 3,
-                  "splitBy": null
+                  "aggregation": 3
                 }
               ],
               "title": "Normalized RU Consumption By  {DatabaseText} {ContainerText} ",
@@ -1380,14 +1447,17 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 0
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-NormalizedRUConsumption",
                   "aggregation": 3,
-                  "splitBy": "PartitionKeyRangeId",
+                  "splitBy": [
+                    "PartitionKeyRangeId"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": null
                 }
@@ -1534,14 +1604,17 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-NormalizedRUConsumption",
                   "aggregation": 3,
-                  "splitBy": "PartitionKeyRangeId"
+                  "splitBy": [
+                    "PartitionKeyRangeId"
+                  ]
                 }
               ],
               "title": "Normalized RU Consumption (%) By PartitionKeyRangeID {DatabaseText} {ContainerText} ",
@@ -1635,14 +1708,17 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 0
+                "durationMs": 19669143,
+                "endTime": "2026-03-31T00:21:13.664Z"
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-ProvisionedThroughput",
                   "aggregation": 3,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": null
                 }
@@ -1983,14 +2059,13 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 604800000
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-DataUsage",
-                  "aggregation": 4,
-                  "splitBy": null
+                  "aggregation": 4
                 },
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
@@ -2039,14 +2114,13 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 604800000
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-DocumentCount",
-                  "aggregation": 4,
-                  "splitBy": null
+                  "aggregation": 4
                 }
               ],
               "title": "Document Count {DatabaseText} {ContainerText} ",
@@ -2088,14 +2162,16 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
+                "durationMs": 604800000
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-DataUsage",
                   "aggregation": 4,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 },
@@ -2103,7 +2179,9 @@
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-IndexUsage",
                   "aggregation": 4,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 },
@@ -2111,7 +2189,9 @@
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-DocumentCount",
                   "aggregation": 4,
-                  "splitBy": "CollectionName",
+                  "splitBy": [
+                    "CollectionName"
+                  ],
                   "splitBySortOrder": -1,
                   "splitByLimit": 1000
                 }
@@ -2258,6 +2338,10 @@
                   {
                     "columnId": "Subscription",
                     "label": "Subscription/Database/Collection"
+                  },
+                  {
+                    "columnId": "Name",
+                    "label": "Collections"
                   },
                   {
                     "columnId": "Segment",
@@ -3229,14 +3313,15 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-MetadataRequests",
                   "aggregation": 7,
-                  "splitBy": "StatusCode"
+                  "splitBy": [
+                    "StatusCode"
+                  ]
                 }
               ],
               "title": "Metadata Requests by Status Code {DatabaseText} {ContainerText} ",
@@ -3279,14 +3364,15 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 14400000
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-MetadataRequests",
                   "aggregation": 7,
-                  "splitBy": "StatusCode"
+                  "splitBy": [
+                    "StatusCode"
+                  ]
                 }
               ],
               "title": "Metadata Requests That Exceeded Capacity (429s) {DatabaseText} {ContainerText} ",
@@ -3338,92 +3424,497 @@
         "groupType": "editable",
         "items": [
           {
-            "type": 10,
+            "type": 1,
             "content": {
-              "chartId": "workbook7ca90cba-4b97-4a62-bc77-2bf7f98b2268",
-              "version": "MetricsItem/2.0",
-              "size": 1,
-              "chartType": 2,
-              "resourceType": "microsoft.documentdb/databaseaccounts",
-              "metricScope": 0,
-              "resourceParameter": "Resources",
-              "resourceIds": [
-                "{Resources}"
-              ],
-              "timeContextFromParameter": "TimeRange",
-              "timeContext": {
-                "durationMs": 14400000
-              },
-              "metrics": [
-                {
-                  "namespace": "microsoft.documentdb/databaseaccounts",
-                  "metric": "microsoft.documentdb/databaseaccounts-Requests-UpdateAccountKeys",
-                  "aggregation": 7,
-                  "splitBy": "KeyType"
-                }
-              ],
-              "title": "Cosmos DB Account Key Rotations",
-              "timeBrushParameterName": "timebrush",
-              "gridSettings": {
-                "rowLimit": 10000
-              }
+              "json": "Please choose a database and collection to view partition-level metrics.",
+              "style": "info"
             },
-            "showPin": true,
-            "name": "Account Management (Key Updates)"
+            "conditionalVisibility": {
+              "parameterName": "Container",
+              "comparison": "isEqualTo"
+            },
+            "name": "text - 1"
           },
           {
-            "type": 10,
+            "type": 12,
             "content": {
-              "chartId": "workbook02fd5c66-ff8c-44f9-b5e7-bb10d0a41f92",
-              "version": "MetricsItem/2.0",
-              "size": 1,
-              "chartType": 2,
-              "resourceType": "microsoft.documentdb/databaseaccounts",
-              "metricScope": 0,
-              "resourceParameter": "Resources",
-              "resourceIds": [
-                "{Resources}"
-              ],
-              "timeContextFromParameter": "TimeRange",
-              "timeContext": {
-                "durationMs": 14400000
-              },
-              "metrics": [
+              "version": "NotebookGroup/1.0",
+              "groupType": "editable",
+              "items": [
                 {
-                  "namespace": "microsoft.documentdb/databaseaccounts",
-                  "metric": "microsoft.documentdb/databaseaccounts-Requests-UpdateDiagnosticsSettings",
-                  "aggregation": 7,
-                  "splitBy": null
+                  "type": 12,
+                  "content": {
+                    "version": "NotebookGroup/1.0",
+                    "groupType": "editable",
+                    "items": [
+                      {
+                        "type": 10,
+                        "content": {
+                          "chartId": "workbook7ca90cba-4b97-4a62-bc77-2bf7f98b2268",
+                          "version": "MetricsItem/2.0",
+                          "size": 1,
+                          "chartType": 2,
+                          "resourceType": "microsoft.documentdb/databaseaccounts",
+                          "metricScope": 0,
+                          "resourceParameter": "Resources",
+                          "resourceIds": [
+                            "{Resources}"
+                          ],
+                          "timeContextFromParameter": "TimeRange",
+                          "timeContext": {
+                            "durationMs": 604800000
+                          },
+                          "metrics": [
+                            {
+                              "namespace": "microsoft.documentdb/databaseaccounts",
+                              "metric": "microsoft.documentdb/databaseaccounts-Requests-PhysicalPartitionCount",
+                              "aggregation": 3,
+                              "splitBy": [
+                                "CollectionName",
+                                "DatabaseName"
+                              ]
+                            }
+                          ],
+                          "title": "Physical Partition Count",
+                          "graphSettings": {
+                            "type": 0,
+                            "topContent": {
+                              "columnMatch": "Subscription",
+                              "formatter": 1
+                            },
+                            "centerContent": {
+                              "columnMatch": "microsoft.documentdb/databaseaccounts-Requests-PhysicalPartitionCount",
+                              "formatter": 1,
+                              "numberFormat": {
+                                "unit": 17,
+                                "options": {
+                                  "maximumSignificantDigits": 3,
+                                  "maximumFractionDigits": 2
+                                }
+                              }
+                            }
+                          },
+                          "resourceLimit": 10000,
+                          "filters": [
+                            {
+                              "id": "1",
+                              "key": "CollectionName",
+                              "operator": 0,
+                              "valueParam": "Container"
+                            },
+                            {
+                              "id": "2",
+                              "key": "DatabaseName",
+                              "operator": 0,
+                              "valueParam": "Database"
+                            }
+                          ],
+                          "timeBrushParameterName": "timebrush",
+                          "gridSettings": {
+                            "rowLimit": 10000
+                          }
+                        },
+                        "showPin": true,
+                        "name": "Physical Partition Count - Copy"
+                      },
+                      {
+                        "type": 10,
+                        "content": {
+                          "chartId": "workbook02fd5c66-ff8c-44f9-b5e7-bb10d0a41f92",
+                          "version": "MetricsItem/2.0",
+                          "size": 1,
+                          "chartType": 2,
+                          "resourceType": "microsoft.documentdb/databaseaccounts",
+                          "metricScope": 0,
+                          "resourceParameter": "Resources",
+                          "resourceIds": [
+                            "{Resources}"
+                          ],
+                          "timeContextFromParameter": "TimeRange",
+                          "timeContext": {
+                            "durationMs": 604800000
+                          },
+                          "metrics": [
+                            {
+                              "namespace": "microsoft.documentdb/databaseaccounts",
+                              "metric": "microsoft.documentdb/databaseaccounts-Requests-PhysicalPartitionSizeInfo",
+                              "aggregation": 3,
+                              "splitBy": [
+                                "PhysicalPartitionId",
+                                "CollectionName",
+                                "DatabaseName"
+                              ]
+                            }
+                          ],
+                          "title": "Physical Partition Size",
+                          "resourceLimit": 10000,
+                          "filters": [
+                            {
+                              "id": "1",
+                              "key": "CollectionName",
+                              "operator": 0,
+                              "valueParam": "Container"
+                            },
+                            {
+                              "id": "2",
+                              "key": "DatabaseName",
+                              "operator": 0,
+                              "valueParam": "Database"
+                            }
+                          ],
+                          "timeBrushParameterName": "timebrush",
+                          "gridSettings": {
+                            "rowLimit": 10000
+                          }
+                        },
+                        "showPin": true,
+                        "name": "Account Settings"
+                      },
+                      {
+                        "type": 10,
+                        "content": {
+                          "chartId": "workbook02fd5c66-ff8c-44f9-b5e7-bb10d0a41f92",
+                          "version": "MetricsItem/2.0",
+                          "size": 1,
+                          "chartType": 2,
+                          "resourceType": "microsoft.documentdb/databaseaccounts",
+                          "metricScope": 0,
+                          "resourceParameter": "Resources",
+                          "resourceIds": [
+                            "{Resources}"
+                          ],
+                          "timeContextFromParameter": "TimeRange",
+                          "timeContext": {
+                            "durationMs": 604800000
+                          },
+                          "metrics": [
+                            {
+                              "namespace": "microsoft.documentdb/databaseaccounts",
+                              "metric": "microsoft.documentdb/databaseaccounts-Requests-PhysicalPartitionThroughputInfo",
+                              "aggregation": 3,
+                              "splitBy": [
+                                "PhysicalPartitionId"
+                              ]
+                            }
+                          ],
+                          "title": "Throughput Per Partition",
+                          "resourceLimit": 10000,
+                          "filters": [
+                            {
+                              "id": "1",
+                              "key": "CollectionName",
+                              "operator": 0,
+                              "valueParam": "Container"
+                            },
+                            {
+                              "id": "2",
+                              "key": "DatabaseName",
+                              "operator": 0,
+                              "valueParam": "Database"
+                            }
+                          ],
+                          "timeBrushParameterName": "timebrush",
+                          "gridSettings": {
+                            "rowLimit": 10000
+                          }
+                        },
+                        "showPin": true,
+                        "name": "Account Settings - Copy"
+                      }
+                    ]
+                  },
+                  "customWidth": "50",
+                  "conditionalVisibility": {
+                    "parameterName": "selectedTab",
+                    "comparison": "isEqualTo",
+                    "value": "PartitionInfo"
+                  },
+                  "name": "PartitionInfo",
+                  "styleSettings": {
+                    "maxWidth": "100"
+                  }
                 },
                 {
-                  "namespace": "microsoft.documentdb/databaseaccounts",
-                  "metric": "microsoft.documentdb/databaseaccounts-Requests-UpdateAccountNetworkSettings",
-                  "aggregation": 7
-                },
-                {
-                  "namespace": "microsoft.documentdb/databaseaccounts",
-                  "metric": "microsoft.documentdb/databaseaccounts-Requests-UpdateAccountReplicationSettings",
-                  "aggregation": 7
+                  "type": 12,
+                  "content": {
+                    "version": "NotebookGroup/1.0",
+                    "groupType": "editable",
+                    "title": "Logs",
+                    "items": [
+                      {
+                        "type": 9,
+                        "content": {
+                          "version": "KqlParameterItem/1.0",
+                          "parameters": [
+                            {
+                              "id": "68c1869b-c385-4e69-a40a-294a81068323",
+                              "version": "KqlParameterItem/1.0",
+                              "name": "DatabaseCollectionFilterClause",
+                              "type": 1,
+                              "criteriaData": [
+                                {
+                                  "criteriaContext": {
+                                    "leftOperand": "Database",
+                                    "operator": "is Empty",
+                                    "rightValType": "param",
+                                    "resultValType": "static",
+                                    "resultVal": "| where AccountName == toupper('{Resources:Name}')"
+                                  }
+                                },
+                                {
+                                  "criteriaContext": {
+                                    "leftOperand": "Container",
+                                    "operator": "is Empty",
+                                    "rightValType": "param",
+                                    "resultValType": "static",
+                                    "resultVal": "| where AccountName == toupper('{Resources:Name}') and DatabaseName == '{Database}' "
+                                  }
+                                },
+                                {
+                                  "criteriaContext": {
+                                    "operator": "Default",
+                                    "resultValType": "static",
+                                    "resultVal": "| where AccountName == toupper('{Resources:Name}') and DatabaseName == '{Database}' and CollectionName == '{Container}'"
+                                  }
+                                }
+                              ],
+                              "timeContext": {
+                                "durationMs": 86400000
+                              }
+                            }
+                          ],
+                          "style": "pills",
+                          "queryType": 0,
+                          "resourceType": "microsoft.documentdb/databaseaccounts"
+                        },
+                        "conditionalVisibility": {
+                          "parameterName": "Param",
+                          "comparison": "isNotEqualTo"
+                        },
+                        "name": "parameters - 16"
+                      },
+                      {
+                        "type": 1,
+                        "content": {
+                          "json": "Enabling diagnostic logs incurs a separate charge for the Log Analytics service, which is billed based on the volume of data ingested. It's recommended you turn on diagnostic logs for a limited amount of time for debugging, and turn off when no longer required. See <a href=\"https://azure.microsoft.com/pricing/details/monitor/\">pricing page</a> for details.",
+                          "style": "info"
+                        },
+                        "name": "text - 24"
+                      },
+                      {
+                        "type": 1,
+                        "content": {
+                          "json": "\r\n### Once diagnostics logs are enabled on your account, you will be able to select the workspace from the dropdown menu below. Please allow for at least 24 hours of data to flow into your account."
+                        },
+                        "name": "text - 25"
+                      },
+                      {
+                        "type": 9,
+                        "content": {
+                          "version": "KqlParameterItem/1.0",
+                          "crossComponentResources": [
+                            "value::all"
+                          ],
+                          "parameters": [
+                            {
+                              "id": "43a7b8db-707f-4f94-bea9-4fe38b8e1c16",
+                              "version": "KqlParameterItem/1.0",
+                              "name": "LogAnalyticsWorkspace",
+                              "label": "Log Analytics Workspace",
+                              "type": 5,
+                              "query": "resources\r\n| where type == \"microsoft.operationalinsights/workspaces\"\r\n| project id",
+                              "crossComponentResources": [
+                                "value::all"
+                              ],
+                              "value": "",
+                              "typeSettings": {
+                                "additionalResourceOptions": [],
+                                "showDefault": false
+                              },
+                              "timeContext": {
+                                "durationMs": 86400000
+                              },
+                              "queryType": 1,
+                              "resourceType": "microsoft.resourcegraph/resources"
+                            }
+                          ],
+                          "style": "pills",
+                          "queryType": 1,
+                          "resourceType": "microsoft.resourcegraph/resources"
+                        },
+                        "customWidth": "50",
+                        "name": "parameters - 21"
+                      },
+                      {
+                        "type": 3,
+                        "content": {
+                          "version": "KqlItem/1.0",
+                          "query": "CDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where isnotempty(PartitionKey) and isnotempty(PartitionKeyRangeId)\r\n| summarize sum(RequestCharge) by bin(TimeGenerated, 1h), PartitionKeyRangeId\r\n| render timechart",
+                          "size": 0,
+                          "aggregation": 2,
+                          "showAnnotations": true,
+                          "showAnalytics": true,
+                          "title": "Consumed RUs by Physical Partition Per Hour",
+                          "timeContextFromParameter": "TimeRange",
+                          "timeBrushParameterName": "TimeRange",
+                          "timeBrushExportOnlyWhenBrushed": true,
+                          "showRefreshButton": true,
+                          "queryType": 0,
+                          "resourceType": "microsoft.operationalinsights/workspaces",
+                          "crossComponentResources": [
+                          ],
+                          "visualization": "linechart",
+                          "gridSettings": {
+                            "rowLimit": 500
+                          },
+                          "sortBy": [],
+                          "chartSettings": {
+                            "showLegend": true
+                          }
+                        },
+                        "customWidth": "100",
+                        "name": "query - 14 - Copy - Copy - Copy",
+                        "styleSettings": {
+                          "maxWidth": "50"
+                        }
+                      },
+                      {
+                        "type": 1,
+                        "content": {
+                          "json": "Please select a PartitionKeyRangeId, you'd like to further analyze.",
+                          "style": "info"
+                        },
+                        "name": "text - 8"
+                      },
+                      {
+                        "type": 9,
+                        "content": {
+                          "version": "KqlParameterItem/1.0",
+                          "crossComponentResources": [
+                            "{LogAnalyticsWorkspace}"
+                          ],
+                          "parameters": [
+                            {
+                              "id": "1a9038bb-9a75-4c57-a7ec-2042c49834cd",
+                              "version": "KqlParameterItem/1.0",
+                              "name": "PartitionKeyRangeId",
+                              "type": 2,
+                              "description": "PartitionKeyRangeId is used for partition-level deep dive.",
+                              "query": "CDBPartitionKeyRUConsumption \r\n| where PartitionKeyRangeId != ''\r\n| distinct PartitionKeyRangeId",
+                              "crossComponentResources": [
+                                "{LogAnalyticsWorkspace}"
+                              ],
+                              "typeSettings": {
+                                "additionalResourceOptions": [],
+                                "showDefault": false
+                              },
+                              "timeContext": {
+                                "durationMs": 0
+                              },
+                              "timeContextFromParameter": "TimeRange",
+                              "queryType": 0,
+                              "resourceType": "microsoft.operationalinsights/workspaces",
+                              "value": "0"
+                            }
+                          ],
+                          "style": "above",
+                          "queryType": 0,
+                          "resourceType": "microsoft.operationalinsights/workspaces"
+                        },
+                        "customWidth": "50",
+                        "name": "parameters - 6",
+                        "styleSettings": {
+                          "margin": "50"
+                        }
+                      },
+                      {
+                        "type": 3,
+                        "content": {
+                          "version": "KqlItem/1.0",
+                          "query": "let partitionKeyRangeId = {PartitionKeyRangeId}; \r\nlet OthersThreshold = 5.0;\r\nlet HotThreshold = 80.0;\r\nCDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where PartitionKeyRangeId == partitionKeyRangeId\r\n| where isnotempty(PartitionKey)\r\n// 1. Calculate RU per PK per hour\r\n| summarize RU_Usage = sum(RequestCharge) by Hour = bin(TimeGenerated, 1h), PartitionKey\r\n// 2. Calculate Total per hour to find the percentage share\r\n| as T\r\n| join kind=inner (\r\n    T | summarize TotalRU_PerHour = sum(RU_Usage) by Hour\r\n) on Hour\r\n| extend RU_Percentage = round(toreal(RU_Usage) * 100.0/ toreal(TotalRU_PerHour), 2)\r\n// 3. Categorize: If < 5%, label as \"Others\". Otherwise, keep the PartitionKey.\r\n| extend DisplayKey = iif(RU_Percentage < OthersThreshold, \"Others\", PartitionKey)\r\n// 4. Re-summarize to merge all \"Others\" into one row per hour\r\n| summarize \r\n    RU_Usage = sum(RU_Usage), \r\n    RU_Percentage = sum(RU_Percentage) \r\n    by Hour, DisplayKey, TotalRU_PerHour\r\n| project Hour, PartitionKey = DisplayKey, RU_Usage, RU_Percentage, TotalRU_PerHour\r\n| order by Hour asc, RU_Usage desc",
+                          "size": 0,
+                          "aggregation": 2,
+                          "showAnnotations": true,
+                          "showAnalytics": true,
+                          "title": "Consumed RU % by Logical Partition Key",
+                          "timeContextFromParameter": "TimeRange",
+                          "showRefreshButton": true,
+                          "queryType": 0,
+                          "resourceType": "microsoft.operationalinsights/workspaces",
+                          "crossComponentResources": [
+                            
+                          ],
+                          "visualization": "barchart",
+                          "gridSettings": {
+                            "rowLimit": 500
+                          },
+                          "sortBy": [],
+                          "chartSettings": {
+                            "xAxis": "Hour",
+                            "yAxis": [
+                              "RU_Percentage"
+                            ],
+                            "group": "PartitionKey",
+                            "createOtherGroup": 0,
+                            "showLegend": true,
+                            "ySettings": {
+                              "numberFormatSettings": {
+                                "unit": 1,
+                                "options": {
+                                  "style": "decimal",
+                                  "useGrouping": false
+                                }
+                              },
+                              "max": 100
+                            }
+                          }
+                        },
+                        "customWidth": "100",
+                        "conditionalVisibility": {
+                          "parameterName": "PartitionKeyRangeId",
+                          "comparison": "isNotEqualTo"
+                        },
+                        "name": "query - 14 - Copy - Copy",
+                        "styleSettings": {
+                          "maxWidth": "50"
+                        }
+                      },
+                      {
+                        "type": 3,
+                        "content": {
+                          "version": "KqlItem/1.0",
+                          "query": "let partitionKeyRangeId = {PartitionKeyRangeId}; \r\nlet OthersThreshold = 5.0;\r\nlet HotThreshold = 80.0;\r\nCDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where PartitionKeyRangeId == partitionKeyRangeId\r\n| where isnotempty(PartitionKey)\r\n// 1. Calculate RU per PK per hour\r\n| summarize RU_Usage = sum(RequestCharge) by Hour = bin(TimeGenerated, 1h), PartitionKey\r\n// 2. Calculate Total per hour to find the percentage share\r\n| as T\r\n| join kind=inner (\r\n    T | summarize TotalRU_PerHour = sum(RU_Usage) by Hour\r\n) on Hour\r\n| extend RU_Percentage = round(toreal(RU_Usage) * 100.0/ toreal(TotalRU_PerHour), 2)\r\n// 3. Categorize: If < 5%, label as \"Others\". Otherwise, keep the PartitionKey.\r\n| extend DisplayKey = iif(RU_Percentage < OthersThreshold, \"Others\", PartitionKey)\r\n// 4. Re-summarize to merge all \"Others\" into one row per hour\r\n| summarize \r\n    RU_Usage = sum(RU_Usage), \r\n    RU_Percentage = sum(RU_Percentage) \r\n    by Hour, DisplayKey, TotalRU_PerHour\r\n| project Hour, PartitionKey = DisplayKey, RU_Usage, RU_Percentage, TotalRU_PerHour\r\n| order by Hour asc, RU_Usage desc",
+                          "size": 0,
+                          "timeContextFromParameter": "TimeRange",
+                          "queryType": 0,
+                          "resourceType": "microsoft.documentdb/databaseaccounts"
+                        },
+                        "name": "query - 7"
+                      }
+                    ]
+                  },
+                  "customWidth": "50",
+                  "name": "Logs"
                 }
-              ],
-              "title": "Diagnostic, Network and Replication Settings Updates",
-              "timeBrushParameterName": "timebrush",
-              "gridSettings": {
-                "rowLimit": 10000
-              }
+              ]
             },
-            "showPin": true,
-            "name": "Account Settings"
+            "conditionalVisibility": {
+              "parameterName": "Container",
+              "comparison": "isNotEqualTo"
+            },
+            "name": "PartitionInfoGroup"
           }
         ]
       },
       "conditionalVisibility": {
         "parameterName": "selectedTab",
         "comparison": "isEqualTo",
-        "value": "Account Audit"
+        "value": "PartitionInfo"
       },
-      "name": "AccountAudit"
+      "name": "PartitionInfo"
     }
+  ],
+  "fallbackResourceIds": [
   ],
   "$schema": "https://github.com/Microsoft/Application-Insights-Workbooks/blob/master/schema/workbook.json"
 }
