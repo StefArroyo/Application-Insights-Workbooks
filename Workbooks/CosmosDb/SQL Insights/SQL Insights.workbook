@@ -50,7 +50,7 @@
                   "durationMs": 43200000
                 },
                 {
-                  "durationMs": 86400000
+                  "durationMs": 14400000
                 },
                 {
                   "durationMs": 172800000
@@ -65,7 +65,7 @@
               "allowCustom": true
             },
             "timeContext": {
-              "durationMs": 86400000
+              "durationMs": 14400000
             },
             "value": {
               "durationMs": 14400000
@@ -154,7 +154,7 @@
             "type": 2,
             "description": "When the value is \"unset\" or not selected, the data being displayed is at the account level.",
             "query": "{\"version\":\"ARMEndpoint/1.0\",\"data\":null,\"headers\":[],\"method\":\"GET\",\"path\":\"{Resources}/{ApiDatabases}\",\"urlParams\":[{\"key\":\"api-version\",\"value\":\"2020-04-01\"}],\"batchDisabled\":false,\"transformers\":[{\"type\":\"jsonpath\",\"settings\":{\"tablePath\":\"$.value.*.properties.resource.id\",\"columns\":[]}}]}",
-            "value": "Test",
+            "value": null,
             "typeSettings": {
               "additionalResourceOptions": [],
               "showDefault": false
@@ -276,7 +276,7 @@
             "type": 1,
             "isHiddenWhenLocked": true,
             "timeContext": {
-              "durationMs": 86400000
+              "durationMs": 14400000
             }
           }
         ],
@@ -394,7 +394,7 @@
               }
             ],
             "timeContext": {
-              "durationMs": 86400000
+              "durationMs": 14400000
             }
           },
           {
@@ -422,7 +422,7 @@
               }
             ],
             "timeContext": {
-              "durationMs": 86400000
+              "durationMs": 14400000
             }
           }
         ],
@@ -454,8 +454,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -508,8 +507,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -568,8 +566,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -683,8 +680,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -927,8 +923,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1294,8 +1289,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1343,8 +1337,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1396,8 +1389,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1446,8 +1438,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1603,8 +1594,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1707,8 +1697,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1885,8 +1874,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -1939,8 +1927,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -2000,8 +1987,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -2073,8 +2059,7 @@
                     ],
                     "timeContextFromParameter": "TimeRange",
                     "timeContext": {
-                      "durationMs": 5180400000,
-                      "endTime": "2026-04-30T17:17:00.000Z"
+                      "durationMs": 14400000
                     },
                     "metrics": [
                       {
@@ -2305,8 +2290,7 @@
                     ],
                     "timeContextFromParameter": "TimeRange",
                     "timeContext": {
-                      "durationMs": 5180400000,
-                      "endTime": "2026-04-30T17:17:00.000Z"
+                      "durationMs": 14400000
                     },
                     "metrics": [
                       {
@@ -2361,8 +2345,7 @@
                     ],
                     "timeContextFromParameter": "TimeRange",
                     "timeContext": {
-                      "durationMs": 5180400000,
-                      "endTime": "2026-04-30T17:17:00.000Z"
+                      "durationMs": 14400000
                     },
                     "metrics": [
                       {
@@ -2444,7 +2427,7 @@
                           }
                         ],
                         "timeContext": {
-                          "durationMs": 86400000
+                          "durationMs": 14400000
                         }
                       }
                     ],
@@ -2506,7 +2489,7 @@
                           "showDefault": false
                         },
                         "timeContext": {
-                          "durationMs": 86400000
+                          "durationMs": 14400000
                         },
                         "queryType": 1,
                         "resourceType": "microsoft.resourcegraph/resources"
@@ -2592,7 +2575,7 @@
                           "queryType": 0,
                           "resourceType": "microsoft.operationalinsights/workspaces",
                           "crossComponentResources": [
-                            "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-8dad10ed-97e6-41aa-8594-a1497297897a-EUS"
+                            "{LogAnalyticsWorkspace}"
                           ],
                           "visualization": "table",
                           "gridSettings": {
@@ -2635,7 +2618,7 @@
                                 "queryType": 0,
                                 "resourceType": "microsoft.operationalinsights/workspaces",
                                 "crossComponentResources": [
-                                  "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-8dad10ed-97e6-41aa-8594-a1497297897a-EUS"
+                                  "{LogAnalyticsWorkspace}"
                                 ],
                                 "visualization": "barchart",
                                 "gridSettings": {
@@ -2693,7 +2676,7 @@
                                 "queryType": 0,
                                 "resourceType": "microsoft.operationalinsights/workspaces",
                                 "crossComponentResources": [
-                                  "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-8dad10ed-97e6-41aa-8594-a1497297897a-EUS"
+                                  "{LogAnalyticsWorkspace}"
                                 ],
                                 "visualization": "table",
                                 "gridSettings": {
@@ -2894,8 +2877,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -2949,8 +2931,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -3009,8 +2990,7 @@
                     ],
                     "timeContextFromParameter": "TimeRange",
                     "timeContext": {
-                      "durationMs": 5180400000,
-                      "endTime": "2026-04-30T17:17:00.000Z"
+                      "durationMs": 14400000
                     },
                     "metrics": [
                       {
@@ -3074,8 +3054,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -3711,8 +3690,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -3764,8 +3742,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 14400000
               },
               "metrics": [
                 {
@@ -3864,8 +3841,7 @@
                           ],
                           "timeContextFromParameter": "TimeRange",
                           "timeContext": {
-                            "durationMs": 5180400000,
-                            "endTime": "2026-04-30T17:17:00.000Z"
+                            "durationMs": 14400000
                           },
                           "metrics": [
                             {
@@ -3935,8 +3911,7 @@
                           ],
                           "timeContextFromParameter": "TimeRange",
                           "timeContext": {
-                            "durationMs": 5180400000,
-                            "endTime": "2026-04-30T17:17:00.000Z"
+                            "durationMs": 14400000
                           },
                           "metrics": [
                             {
@@ -3989,8 +3964,7 @@
                           ],
                           "timeContextFromParameter": "TimeRange",
                           "timeContext": {
-                            "durationMs": 5180400000,
-                            "endTime": "2026-04-30T17:17:00.000Z"
+                            "durationMs": 14400000
                           },
                           "metrics": [
                             {
@@ -4083,7 +4057,7 @@
                                 }
                               ],
                               "timeContext": {
-                                "durationMs": 86400000
+                                "durationMs": 14400000
                               }
                             }
                           ],
@@ -4187,13 +4161,13 @@
                               "crossComponentResources": [
                                 "value::all"
                               ],
-                              "value": "/subscriptions/220fc532-6091-423c-8ba0-66c2397d591b/resourceGroups/Sandeep/providers/Microsoft.OperationalInsights/workspaces/220fc532-6091-423c-8ba0-66c2397d591b-Sandeep-WUS",
+                              "value": null,
                               "typeSettings": {
                                 "additionalResourceOptions": [],
                                 "showDefault": false
                               },
                               "timeContext": {
-                                "durationMs": 86400000
+                                "durationMs": 14400000
                               },
                               "queryType": 1,
                               "resourceType": "microsoft.resourcegraph/resources"
@@ -4234,7 +4208,7 @@
                                 "queryType": 0,
                                 "resourceType": "microsoft.operationalinsights/workspaces",
                                 "crossComponentResources": [
-                                  "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-8dad10ed-97e6-41aa-8594-a1497297897a-EUS"
+                                  "{LogAnalyticsWorkspace}"
                                 ],
                                 "visualization": "linechart",
                                 "gridSettings": {
@@ -4342,7 +4316,7 @@
                                       "queryType": 0,
                                       "resourceType": "microsoft.operationalinsights/workspaces",
                                       "crossComponentResources": [
-                                        "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-8dad10ed-97e6-41aa-8594-a1497297897a-EUS"
+                                        "{LogAnalyticsWorkspace}"
                                       ],
                                       "visualization": "barchart",
                                       "gridSettings": {
@@ -4400,7 +4374,7 @@
                                       "queryType": 0,
                                       "resourceType": "microsoft.operationalinsights/workspaces",
                                       "crossComponentResources": [
-                                        "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-8dad10ed-97e6-41aa-8594-a1497297897a-EUS"
+                                        "{LogAnalyticsWorkspace}"
                                       ],
                                       "visualization": "table",
                                       "gridSettings": {
@@ -4496,7 +4470,7 @@
     }
   ],
   "fallbackResourceIds": [
-    "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/lnajaroen-test/providers/Microsoft.DocumentDb/databaseAccounts/adaptiveru-canary"
+    "Azure Monitor"
   ],
   "$schema": "https://github.com/Microsoft/Application-Insights-Workbooks/blob/master/schema/workbook.json"
 }
