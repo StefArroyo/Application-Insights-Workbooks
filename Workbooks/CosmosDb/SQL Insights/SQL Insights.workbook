@@ -454,8 +454,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 17631685,
+                "endTime": "2026-03-31T00:00:00.000Z"
               },
               "metrics": [
                 {
@@ -508,8 +508,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 17631685,
+                "endTime": "2026-03-31T00:00:00.000Z"
               },
               "metrics": [
                 {
@@ -568,8 +568,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 17631685,
+                "endTime": "2026-03-31T00:00:00.000Z"
               },
               "metrics": [
                 {
@@ -683,8 +683,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 17631685,
+                "endTime": "2026-03-31T00:00:00.000Z"
               },
               "metrics": [
                 {
@@ -837,7 +837,7 @@
                 {
                   "type": 1,
                   "content": {
-                    "json": "#  💡 <span style=\"font-family: Segoe UI; font-weight: 620; font-size: 20px;font-style: bold;margin:-10px -304px 0px 0px;position: relative;top:-5px;left:-4px\">Need help troubleshooting?\r\n</span> \r\n\r\nFollow our guided workbooks below to help you optimize/troubleshoot your Cosmos DB resource.\r\n"
+                    "json": "#  \ud83d\udca1 <span style=\"font-family: Segoe UI; font-weight: 620; font-size: 20px;font-style: bold;margin:-10px -304px 0px 0px;position: relative;top:-5px;left:-4px\">Need help troubleshooting?\r\n</span> \r\n\r\nFollow our guided workbooks below to help you optimize/troubleshoot your Cosmos DB resource.\r\n"
                   },
                   "customWidth": "100",
                   "name": "Troubleshooting"
@@ -882,7 +882,7 @@
                 {
                   "type": 1,
                   "content": {
-                    "json": "\r\n# 🔍<span style=\"font-family: Segoe UI; font-weight: 620; font-size: 20px;font-style: bold;margin:-10px -304px 0px 0px;position: relative;top:-5px;left:-4px\"> Get even more visibility into your usage and performance\r\n</span> \r\n\r\nIf you have not activated additional monitoring, you must enable the **DataPlane**, **PartitionKeyStatistics**, **Queryruntime**, and **other** platform logs and send them to a Log Analytics workspace. [Learn more](https://docs.microsoft.com/en-us/azure/data-explorer/using-diagnostic-logs?tabs=commands-and-queries#set-up-diagnostic-logs-for-an-azure-data-explorer-cluster)</div>"
+                    "json": "\r\n# \ud83d\udd0d<span style=\"font-family: Segoe UI; font-weight: 620; font-size: 20px;font-style: bold;margin:-10px -304px 0px 0px;position: relative;top:-5px;left:-4px\"> Get even more visibility into your usage and performance\r\n</span> \r\n\r\nIf you have not activated additional monitoring, you must enable the **DataPlane**, **PartitionKeyStatistics**, **Queryruntime**, and **other** platform logs and send them to a Log Analytics workspace. [Learn more](https://docs.microsoft.com/en-us/azure/data-explorer/using-diagnostic-logs?tabs=commands-and-queries#set-up-diagnostic-logs-for-an-azure-data-explorer-cluster)</div>"
                   },
                   "name": "text - 0"
                 },
@@ -927,8 +927,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 17631685,
+                "endTime": "2026-03-31T00:00:00.000Z"
               },
               "metrics": [
                 {
@@ -1294,14 +1294,14 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 0
               },
               "metrics": [
                 {
                   "namespace": "microsoft.documentdb/databaseaccounts",
                   "metric": "microsoft.documentdb/databaseaccounts-Requests-TotalRequestUnits",
-                  "aggregation": 1
+                  "aggregation": 1,
+                  "splitBy": null
                 }
               ],
               "title": "Total Request Units {DatabaseText} {ContainerText} ",
@@ -1343,8 +1343,7 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 0
               },
               "metrics": [
                 {
@@ -1396,8 +1395,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 5011200000,
+                "endTime": "2026-02-28T17:43:00.000Z"
               },
               "metrics": [
                 {
@@ -1446,8 +1445,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 5011200000,
+                "endTime": "2026-02-28T17:43:00.000Z"
               },
               "metrics": [
                 {
@@ -1603,8 +1602,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 5011200000,
+                "endTime": "2026-02-28T17:43:00.000Z"
               },
               "metrics": [
                 {
@@ -1707,8 +1706,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 5011200000,
+                "endTime": "2026-02-28T17:43:00.000Z"
               },
               "metrics": [
                 {
@@ -2073,8 +2072,8 @@
                     ],
                     "timeContextFromParameter": "TimeRange",
                     "timeContext": {
-                      "durationMs": 5180400000,
-                      "endTime": "2026-04-30T17:17:00.000Z"
+                      "durationMs": 17631685,
+                      "endTime": "2026-03-31T00:00:00.000Z"
                     },
                     "metrics": [
                       {
@@ -2305,8 +2304,8 @@
                     ],
                     "timeContextFromParameter": "TimeRange",
                     "timeContext": {
-                      "durationMs": 5180400000,
-                      "endTime": "2026-04-30T17:17:00.000Z"
+                      "durationMs": 17631685,
+                      "endTime": "2026-03-31T00:00:00.000Z"
                     },
                     "metrics": [
                       {
@@ -2361,8 +2360,8 @@
                     ],
                     "timeContextFromParameter": "TimeRange",
                     "timeContext": {
-                      "durationMs": 5180400000,
-                      "endTime": "2026-04-30T17:17:00.000Z"
+                      "durationMs": 17631685,
+                      "endTime": "2026-03-31T00:00:00.000Z"
                     },
                     "metrics": [
                       {
@@ -2461,26 +2460,9 @@
                 {
                   "type": 1,
                   "content": {
-                    "json": " <div style=\"padding: 20px 24px; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px \r\n4px -2px rgba(0,0,0,0.03);\">\r\n   <div style=\"display: flex; align-items: center; gap: 10px; margin-bottom: 8px;\">\r\n     <span style=\"background: #0078d4; padding: 6px 10px; border-radius: 8px; font-size: 16px;\">🔍</span>\r\n     <h2 style=\"color: #0f172a; margin: 0; font-weight: 700; font-size: 20px; letter-spacing: -0.3px;\">Diagnostics Logs</h2>\r\n   </div>\r\n   <p style=\"color: #1b1b1b; margin: 0 0 14px 0; font-size: 13px; line-height: 1.5;\">Query performance, partition key statistics, and resource \r\nconsumption from CDB diagnostic tables.</p>\r\n   <div style=\"padding: 10px 14px; background: linear-gradient(135deg, #fffbeb 0%, #fef9c3 100%); border-radius: 8px; border: 1px solid #fde68a;\">\r\n     <p style=\"color: #92400e; margin: 0; font-size: 12px; line-height: 1.6;\">\r\n       <span style=\"font-size: 14px;\">⚡</span> <strong>Setup required</strong>: Enable <code style=\"background: #dbeafe; padding: 3px 8px; \r\nborder-radius: 5px; color: #1d4ed8; font-size: 11px; font-weight: 500;\">CDBPartitionKeyStatistics</code> under Diagnostics Settings to view logical partition storage skew. Select your workspace below once enabled. Allow ~24 hours for data to populate.\r\n     </p>\r\n   </div>\r\n </div>"
-                  },
-                  "conditionalVisibility": {
-                    "parameterName": "IsCDBPartitionKeyStatisticsEnabled",
-                    "comparison": "isNotEqualTo",
-                    "parameterValue": "true"
+                    "json": " <div style=\"padding: 20px 24px; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px \r\n4px -2px rgba(0,0,0,0.03);\">\r\n   <div style=\"display: flex; align-items: center; gap: 10px; margin-bottom: 8px;\">\r\n     <span style=\"background: #0078d4; padding: 6px 10px; border-radius: 8px; font-size: 16px;\">\ud83d\udd0d</span>\r\n     <h2 style=\"color: #0f172a; margin: 0; font-weight: 700; font-size: 20px; letter-spacing: -0.3px;\">Diagnostics Logs</h2>\r\n   </div>\r\n   <p style=\"color: #1b1b1b; margin: 0 0 14px 0; font-size: 13px; line-height: 1.5;\">Query performance, partition key statistics, and resource \r\nconsumption from CDB diagnostic tables.</p>\r\n   <div style=\"padding: 10px 14px; background: linear-gradient(135deg, #fffbeb 0%, #fef9c3 100%); border-radius: 8px; border: 1px solid #fde68a;\">\r\n     <p style=\"color: #92400e; margin: 0; font-size: 12px; line-height: 1.6;\">\r\n       <span style=\"font-size: 14px;\">\u26a1</span> <strong>Setup required</strong>: Enable <code style=\"background: #dbeafe; padding: 3px 8px; \r\nborder-radius: 5px; color: #1d4ed8; font-size: 11px; font-weight: 500;\">CDBPartitionKeyStatistics</code> under Diagnostics Settings to view logical partition storage skew. Select your workspace below once enabled. Allow ~24 hours for data to populate.\r\n     </p>\r\n   </div>\r\n </div>"
                   },
                   "name": "text - 24 - Copy"
-                },
-                {
-                  "type": 1,
-                  "content": {
-                    "json": "<h3 style=\"font-family: 'Segoe UI', sans-serif; font-weight: 600; font-size: 16px; color: #0f172a; margin: 16px 0 4px 0;\">📊 Partition Key Statistics (Log Analytics)</h3>\r\n<p style=\"font-size: 13px; color: #475569; margin: 0 0 8px 0;\">Select your Log Analytics workspace to view partition-level diagnostics data.</p>"
-                  },
-                  "conditionalVisibility": {
-                    "parameterName": "IsCDBPartitionKeyStatisticsEnabled",
-                    "comparison": "isEqualTo",
-                    "parameterValue": "true"
-                  },
-                  "name": "text-diagnostics-logs-title"
                 },
                 {
                   "type": 9,
@@ -2525,54 +2507,6 @@
                     "version": "NotebookGroup/1.0",
                     "groupType": "editable",
                     "items": [
-                      {
-                        "type": 9,
-                        "content": {
-                          "version": "KqlParameterItem/1.0",
-                          "parameters": [
-                            {
-                              "id": "b1c2d3e4-f5a6-7890-bcde-f01234567890",
-                              "version": "KqlParameterItem/1.0",
-                              "name": "DiagCDBPKSRaw",
-                              "type": 1,
-                              "isHiddenWhenLocked": true,
-                              "query": "{\"version\":\"ARMEndpoint/1.0\",\"data\":null,\"headers\":[],\"method\":\"GET\",\"path\":\"{Resources}/providers/microsoft.insights/diagnosticSettings\",\"urlParams\":[{\"key\":\"api-version\",\"value\":\"2021-05-01-preview\"}],\"batchDisabled\":false,\"transformers\":[{\"type\":\"jsonpath\",\"settings\":{\"tablePath\":\"$.value[*].properties.logs[?(@.category=='CDBPartitionKeyStatistics' && @.enabled==true)]\",\"columns\":[{\"path\":\"$.category\",\"columnid\":\"category\"}]}}]}",
-                              "queryType": 12
-                            },
-                            {
-                              "id": "b1c2d3e4-f5a6-7890-bcde-f01234567891",
-                              "version": "KqlParameterItem/1.0",
-                              "name": "IsCDBPartitionKeyStatisticsEnabled",
-                              "type": 1,
-                              "isHiddenWhenLocked": true,
-                              "criteriaData": [
-                                {
-                                  "criteriaContext": {
-                                    "leftOperand": "DiagCDBPKSRaw",
-                                    "operator": "contains",
-                                    "rightValType": "static",
-                                    "rightVal": "CDBPartitionKeyStatistics",
-                                    "resultValType": "static",
-                                    "resultVal": "true"
-                                  }
-                                },
-                                {
-                                  "criteriaContext": {
-                                    "operator": "Default",
-                                    "rightValType": "param",
-                                    "resultValType": "static",
-                                    "resultVal": ""
-                                  }
-                                }
-                              ]
-                            }
-                          ],
-                          "style": "pills",
-                          "queryType": 0,
-                          "resourceType": "microsoft.documentdb/databaseaccounts"
-                        },
-                        "name": "param-check-cdbpks-enabled"
-                      },
                       {
                         "type": 3,
                         "content": {
@@ -2681,7 +2615,7 @@
                               "type": 3,
                               "content": {
                                 "version": "KqlItem/1.0",
-                                "query": "let partitionKeyRangeId = {PartitionKeyRangeId}; \r\nlet OthersThreshold = 5.0;\r\nlet HotThreshold = 80.0;\r\n// Step 1: RU per PK per hour\r\nlet PerHour = \r\nCDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where PartitionKeyRangeId == partitionKeyRangeId\r\n| where isnotempty(PartitionKey)\r\n    | summarize RU_Usage = sum(RequestCharge) by Hour = bin(TimeGenerated, 1h), PartitionKey;\r\n// Step 2: Total RU and distinct PK count per hour\r\nlet HourTotals =\r\n    PerHour\r\n    | summarize \r\n        TotalRU_PerHour = sum(RU_Usage),\r\n        DistinctKeys    = dcount(PartitionKey)\r\n      by Hour;\r\n// Step 3: Per-hour percentage and skew label\r\nlet PerHourLabeled =\r\n    PerHour\r\n    | join kind=inner HourTotals on Hour\r\n    | extend RU_Percentage = round(toreal(RU_Usage) * 100.0 / toreal(TotalRU_PerHour), 2)\r\n    | extend FairSharePct  = round(100.0 / toreal(DistinctKeys), 2)\r\n    | extend SkewRatio     = round(RU_Percentage / FairSharePct, 1)\r\n    | extend HourLabel     = case(\r\n        RU_Percentage >= HotThreshold,  \"Hot\",\r\n //       RU_Percentage >= WarmThreshold, \"Warm\",\r\n        \"Normal\");\r\n// Step 4: Roll up across the full time window per partition key\r\nPerHourLabeled\r\n| summarize\r\n    TotalRU          = sum(RU_Usage),\r\n    TotalHours       = dcount(Hour),\r\n    HotHours         = dcountif(Hour, HourLabel == \"Hot\"),\r\n //   WarmHours        = dcountif(Hour, HourLabel == \"Warm\"),\r\n    NormalHours      = dcountif(Hour, HourLabel == \"Normal\"),\r\n    PeakRU_Pct       = round(max(RU_Percentage), 2),\r\n    AvgRU_Pct        = round(avg(RU_Percentage), 2)\r\n  by PartitionKey\r\n// Compute % of hours the key was hot\r\n| extend HotHoursPct  = round(toreal(HotHours)  * 100.0 / toreal(TotalHours), 1)\r\n// Overall verdict: Hot if it was hot in >10% of hours, else Normal\r\n| extend OverallLabel = case(\r\n    HotHoursPct  > 25.0, \"🔥 Hot\",\r\n    \"✅ Normal\")\r\n| project\r\n    PartitionKey,\r\n    OverallLabel,\r\n    HotHoursPct,    // % of hours this key was dominant (>80% of RUs)\r\n  //  WarmHoursPct,   // % of hours this key was warm (40–80% of RUs)\r\n    PeakRU_Pct,     // highest single-hour percent across one key\r\n    AvgRU_Pct,      // average % share across all hours\r\n    TotalRU,\r\n    TotalHours,\r\n    HotHours,\r\n   // WarmHours,\r\n    NormalHours\r\n| extend Recommendation = case(\r\n    OverallLabel == \"🔥 Hot\",\r\n        strcat(\"This partition key consumed over 80% of the container's RUs in \", tostring(HotHours), \" of \", tostring(TotalHours), \" hours (\", tostring(HotHoursPct), \"%). \"\r\n               \"This is a hot partition; \"\r\n               \"Consider redistribution of throughput <INSERT LINK TO DOC.>\"),\r\n    strcat(\"This partition key consumed an average of \", tostring(AvgRU_Pct), \"% of the container's RUs, peaking at \", tostring(PeakRU_Pct), \"%. \"\r\n           \"Traffic is well-distributed. No action needed.\"))\r\n| project PartitionKey, HotnessIndicator = OverallLabel, Recommendation\r\n| extend Link = iff(HotnessIndicator == \"✅ Normal\", \" N/A \", \"https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-redistribute-throughput-across-partitions?tabs=nosql&pivots=azure-cli\")\r\n//| order by HotHoursPct desc, PeakRU_Pct desc\r\n\r\n",
+                                "query": "let partitionKeyRangeId = {PartitionKeyRangeId}; \r\nlet OthersThreshold = 5.0;\r\nlet HotThreshold = 80.0;\r\n// Step 1: RU per PK per hour\r\nlet PerHour = \r\nCDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where PartitionKeyRangeId == partitionKeyRangeId\r\n| where isnotempty(PartitionKey)\r\n    | summarize RU_Usage = sum(RequestCharge) by Hour = bin(TimeGenerated, 1h), PartitionKey;\r\n// Step 2: Total RU and distinct PK count per hour\r\nlet HourTotals =\r\n    PerHour\r\n    | summarize \r\n        TotalRU_PerHour = sum(RU_Usage),\r\n        DistinctKeys    = dcount(PartitionKey)\r\n      by Hour;\r\n// Step 3: Per-hour percentage and skew label\r\nlet PerHourLabeled =\r\n    PerHour\r\n    | join kind=inner HourTotals on Hour\r\n    | extend RU_Percentage = round(toreal(RU_Usage) * 100.0 / toreal(TotalRU_PerHour), 2)\r\n    | extend FairSharePct  = round(100.0 / toreal(DistinctKeys), 2)\r\n    | extend SkewRatio     = round(RU_Percentage / FairSharePct, 1)\r\n    | extend HourLabel     = case(\r\n        RU_Percentage >= HotThreshold,  \"Hot\",\r\n //       RU_Percentage >= WarmThreshold, \"Warm\",\r\n        \"Normal\");\r\n// Step 4: Roll up across the full time window per partition key\r\nPerHourLabeled\r\n| summarize\r\n    TotalRU          = sum(RU_Usage),\r\n    TotalHours       = dcount(Hour),\r\n    HotHours         = dcountif(Hour, HourLabel == \"Hot\"),\r\n //   WarmHours        = dcountif(Hour, HourLabel == \"Warm\"),\r\n    NormalHours      = dcountif(Hour, HourLabel == \"Normal\"),\r\n    PeakRU_Pct       = round(max(RU_Percentage), 2),\r\n    AvgRU_Pct        = round(avg(RU_Percentage), 2)\r\n  by PartitionKey\r\n// Compute % of hours the key was hot\r\n| extend HotHoursPct  = round(toreal(HotHours)  * 100.0 / toreal(TotalHours), 1)\r\n// Overall verdict: Hot if it was hot in >10% of hours, else Normal\r\n| extend OverallLabel = case(\r\n    HotHoursPct  > 25.0, \"\ud83d\udd25 Hot\",\r\n    \"\u2705 Normal\")\r\n| project\r\n    PartitionKey,\r\n    OverallLabel,\r\n    HotHoursPct,    // % of hours this key was dominant (>80% of RUs)\r\n  //  WarmHoursPct,   // % of hours this key was warm (40\u201380% of RUs)\r\n    PeakRU_Pct,     // highest single-hour percent across one key\r\n    AvgRU_Pct,      // average % share across all hours\r\n    TotalRU,\r\n    TotalHours,\r\n    HotHours,\r\n   // WarmHours,\r\n    NormalHours\r\n| extend Recommendation = case(\r\n    OverallLabel == \"\ud83d\udd25 Hot\",\r\n        strcat(\"This partition key consumed over 80% of the container's RUs in \", tostring(HotHours), \" of \", tostring(TotalHours), \" hours (\", tostring(HotHoursPct), \"%). \"\r\n               \"This is a hot partition; \"\r\n               \"Consider redistribution of throughput <INSERT LINK TO DOC.>\"),\r\n    strcat(\"This partition key consumed an average of \", tostring(AvgRU_Pct), \"% of the container's RUs, peaking at \", tostring(PeakRU_Pct), \"%. \"\r\n           \"Traffic is well-distributed. No action needed.\"))\r\n| project PartitionKey, HotnessIndicator = OverallLabel, Recommendation\r\n| extend Link = iff(HotnessIndicator == \"\u2705 Normal\", \" N/A \", \"https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-redistribute-throughput-across-partitions?tabs=nosql&pivots=azure-cli\")\r\n//| order by HotHoursPct desc, PeakRU_Pct desc\r\n\r\n",
                                 "size": 0,
                                 "aggregation": 2,
                                 "showAnnotations": true,
@@ -3711,8 +3645,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 24699551,
+                "endTime": "2026-03-31T11:57:50.842Z"
               },
               "metrics": [
                 {
@@ -3764,8 +3698,8 @@
               ],
               "timeContextFromParameter": "TimeRange",
               "timeContext": {
-                "durationMs": 5180400000,
-                "endTime": "2026-04-30T17:17:00.000Z"
+                "durationMs": 24699551,
+                "endTime": "2026-03-31T11:57:50.842Z"
               },
               "metrics": [
                 {
@@ -3864,8 +3798,8 @@
                           ],
                           "timeContextFromParameter": "TimeRange",
                           "timeContext": {
-                            "durationMs": 5180400000,
-                            "endTime": "2026-04-30T17:17:00.000Z"
+                            "durationMs": 17631685,
+                            "endTime": "2026-03-31T00:00:00.000Z"
                           },
                           "metrics": [
                             {
@@ -3935,8 +3869,8 @@
                           ],
                           "timeContextFromParameter": "TimeRange",
                           "timeContext": {
-                            "durationMs": 5180400000,
-                            "endTime": "2026-04-30T17:17:00.000Z"
+                            "durationMs": 17631685,
+                            "endTime": "2026-03-31T00:00:00.000Z"
                           },
                           "metrics": [
                             {
@@ -3989,8 +3923,8 @@
                           ],
                           "timeContextFromParameter": "TimeRange",
                           "timeContext": {
-                            "durationMs": 5180400000,
-                            "endTime": "2026-04-30T17:17:00.000Z"
+                            "durationMs": 17631685,
+                            "endTime": "2026-03-31T00:00:00.000Z"
                           },
                           "metrics": [
                             {
@@ -4148,26 +4082,9 @@
                       {
                         "type": 1,
                         "content": {
-                          "json": " <div style=\"padding: 20px 24px; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px \r\n4px -2px rgba(0,0,0,0.03);\">\r\n   <div style=\"display: flex; align-items: center; gap: 10px; margin-bottom: 8px;\">\r\n     <span style=\"background: #0078d4; padding: 6px 10px; border-radius: 8px; font-size: 16px;\">🔍</span>\r\n     <h2 style=\"color: #0f172a; margin: 0; font-weight: 700; font-size: 20px; letter-spacing: -0.3px;\">Diagnostics Logs</h2>\r\n   </div>\r\n   <p style=\"color: #1b1b1b; margin: 0 0 14px 0; font-size: 13px; line-height: 1.5;\">Query performance, partition key statistics, and resource \r\nconsumption from CDB diagnostic tables.</p>\r\n   <div style=\"padding: 10px 14px; background: linear-gradient(135deg, #fffbeb 0%, #fef9c3 100%); border-radius: 8px; border: 1px solid #fde68a;\">\r\n     <p style=\"color: #92400e; margin: 0; font-size: 12px; line-height: 1.6;\">\r\n       <span style=\"font-size: 14px;\">⚡</span> <strong>Setup required</strong>: Enable <code style=\"background: #dbeafe; padding: 3px 8px; \r\nborder-radius: 5px; color: #1d4ed8; font-size: 11px; font-weight: 500;\">CDBPartitionKeyRUConsumption</code> under Diagnostics Settings to further troubleshoot throughput skewness. Select your workspace below once enabled. Allow ~24 hours for data to populate.\r\n     </p>\r\n   </div>\r\n </div>"
-                        },
-                        "conditionalVisibility": {
-                          "parameterName": "IsCDBPartitionKeyRUConsumptionEnabled",
-                          "comparison": "isNotEqualTo",
-                          "parameterValue": "true"
+                          "json": " <div style=\"padding: 20px 24px; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px \r\n4px -2px rgba(0,0,0,0.03);\">\r\n   <div style=\"display: flex; align-items: center; gap: 10px; margin-bottom: 8px;\">\r\n     <span style=\"background: #0078d4; padding: 6px 10px; border-radius: 8px; font-size: 16px;\">\ud83d\udd0d</span>\r\n     <h2 style=\"color: #0f172a; margin: 0; font-weight: 700; font-size: 20px; letter-spacing: -0.3px;\">Diagnostics Logs</h2>\r\n   </div>\r\n   <p style=\"color: #1b1b1b; margin: 0 0 14px 0; font-size: 13px; line-height: 1.5;\">Query performance, partition key statistics, and resource \r\nconsumption from CDB diagnostic tables.</p>\r\n   <div style=\"padding: 10px 14px; background: linear-gradient(135deg, #fffbeb 0%, #fef9c3 100%); border-radius: 8px; border: 1px solid #fde68a;\">\r\n     <p style=\"color: #92400e; margin: 0; font-size: 12px; line-height: 1.6;\">\r\n       <span style=\"font-size: 14px;\">\u26a1</span> <strong>Setup required</strong> \u2014 Enable <code style=\"background: #dbeafe; padding: 3px 8px; \r\nborder-radius: 5px; color: #1d4ed8; font-size: 11px; font-weight: 500;\">CDBPartitionKeyRUConsumption</code> under Diagnostics Settings to further troubleshoot throughput skewness. Select your workspace below once enabled. Allow ~24 hours for data to populate.\r\n     </p>\r\n   </div>\r\n </div>"
                         },
                         "name": "text - 24"
-                      },
-                      {
-                        "type": 1,
-                        "content": {
-                          "json": "<h3 style=\"font-family: 'Segoe UI', sans-serif; font-weight: 600; font-size: 16px; color: #0f172a; margin: 16px 0 4px 0;\">📊 Partition Key RU Consumption (Log Analytics)</h3>\r\n<p style=\"font-size: 13px; color: #475569; margin: 0 0 8px 0;\">Select your Log Analytics workspace to view per-partition RU consumption data.</p>"
-                        },
-                        "conditionalVisibility": {
-                          "parameterName": "IsCDBPartitionKeyRUConsumptionEnabled",
-                          "comparison": "isEqualTo",
-                          "parameterValue": "true"
-                        },
-                        "name": "text-diagnostics-ru-consumption-title"
                       },
                       {
                         "type": 9,
@@ -4187,7 +4104,7 @@
                               "crossComponentResources": [
                                 "value::all"
                               ],
-                              "value": "/subscriptions/220fc532-6091-423c-8ba0-66c2397d591b/resourceGroups/Sandeep/providers/Microsoft.OperationalInsights/workspaces/220fc532-6091-423c-8ba0-66c2397d591b-Sandeep-WUS",
+                              "value": "/subscriptions/8dad10ed-97e6-41aa-8594-a1497297897a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-8dad10ed-97e6-41aa-8594-a1497297897a-EUS",
                               "typeSettings": {
                                 "additionalResourceOptions": [],
                                 "showDefault": false
@@ -4246,17 +4163,6 @@
                                 }
                               },
                               "customWidth": "100",
-                              "conditionalVisibilities": [
-                                {
-                                  "parameterName": "IsCDBPartitionKeyRUConsumptionEnabled",
-                                  "comparison": "isEqualTo",
-                                  "parameterValue": "true"
-                                },
-                                {
-                                  "parameterName": "LogAnalyticsWorkspace",
-                                  "comparison": "isNotEqualTo"
-                                }
-                              ],
                               "name": "query - 14 - Copy - Copy - Copy",
                               "styleSettings": {
                                 "maxWidth": "50"
@@ -4276,7 +4182,7 @@
                                     "name": "PartitionKeyRangeId",
                                     "type": 2,
                                     "description": "PartitionKeyRangeId is used for partition-level deep dive.",
-                                    "query": "CDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where PartitionKeyRangeId != ''\r\n| distinct PartitionKeyRangeId",
+                                    "query": "CDBPartitionKeyRUConsumption \r\n| where PartitionKeyRangeId != ''\r\n| distinct PartitionKeyRangeId",
                                     "crossComponentResources": [
                                       "{LogAnalyticsWorkspace}"
                                     ],
@@ -4298,11 +4204,6 @@
                                 "resourceType": "microsoft.operationalinsights/workspaces"
                               },
                               "customWidth": "50",
-                              "conditionalVisibility": {
-                                "parameterName": "IsCDBPartitionKeyRUConsumptionEnabled",
-                                "comparison": "isEqualTo",
-                                "parameterValue": "true"
-                              },
                               "name": "parameters - 6",
                               "styleSettings": {
                                 "margin": "50"
@@ -4388,7 +4289,7 @@
                                     "type": 3,
                                     "content": {
                                       "version": "KqlItem/1.0",
-                                      "query": "let partitionKeyRangeId = {PartitionKeyRangeId}; \r\nlet OthersThreshold = 5.0;\r\nlet HotThreshold = 80.0;\r\n// Step 1: RU per PK per hour\r\nlet PerHour = \r\nCDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where PartitionKeyRangeId == partitionKeyRangeId\r\n| where isnotempty(PartitionKey)\r\n    | summarize RU_Usage = sum(RequestCharge) by Hour = bin(TimeGenerated, 1h), PartitionKey;\r\n// Step 2: Total RU and distinct PK count per hour\r\nlet HourTotals =\r\n    PerHour\r\n    | summarize \r\n        TotalRU_PerHour = sum(RU_Usage),\r\n        DistinctKeys    = dcount(PartitionKey)\r\n      by Hour;\r\n// Step 3: Per-hour percentage and skew label\r\nlet PerHourLabeled =\r\n    PerHour\r\n    | join kind=inner HourTotals on Hour\r\n    | extend RU_Percentage = round(toreal(RU_Usage) * 100.0 / toreal(TotalRU_PerHour), 2)\r\n    | extend FairSharePct  = round(100.0 / toreal(DistinctKeys), 2)\r\n    | extend SkewRatio     = round(RU_Percentage / FairSharePct, 1)\r\n    | extend HourLabel     = case(\r\n        RU_Percentage >= HotThreshold,  \"Hot\",\r\n //       RU_Percentage >= WarmThreshold, \"Warm\",\r\n        \"Normal\");\r\n// Step 4: Roll up across the full time window per partition key\r\nPerHourLabeled\r\n| summarize\r\n    TotalRU          = sum(RU_Usage),\r\n    TotalHours       = dcount(Hour),\r\n    HotHours         = dcountif(Hour, HourLabel == \"Hot\"),\r\n //   WarmHours        = dcountif(Hour, HourLabel == \"Warm\"),\r\n    NormalHours      = dcountif(Hour, HourLabel == \"Normal\"),\r\n    PeakRU_Pct       = round(max(RU_Percentage), 2),\r\n    AvgRU_Pct        = round(avg(RU_Percentage), 2)\r\n  by PartitionKey\r\n// Compute % of hours the key was hot\r\n| extend HotHoursPct  = round(toreal(HotHours)  * 100.0 / toreal(TotalHours), 1)\r\n// Overall verdict: Hot if it was hot in >10% of hours, else Normal\r\n| extend OverallLabel = case(\r\n    HotHoursPct  > 25.0, \"🔥 Hot\",\r\n    \"✅ Normal\")\r\n| project\r\n    PartitionKey,\r\n    OverallLabel,\r\n    HotHoursPct,    // % of hours this key was dominant (>80% of RUs)\r\n  //  WarmHoursPct,   // % of hours this key was warm (40–80% of RUs)\r\n    PeakRU_Pct,     // highest single-hour percent across one key\r\n    AvgRU_Pct,      // average % share across all hours\r\n    TotalRU,\r\n    TotalHours,\r\n    HotHours,\r\n   // WarmHours,\r\n    NormalHours\r\n| extend Recommendation = case(\r\n    OverallLabel == \"🔥 Hot\",\r\n        strcat(\"This partition key consumed \", tostring(AvgRU_Pct), \" % of the container's RUs in \", tostring(HotHours), \" of \", tostring(TotalHours), \" hours (\", tostring(HotHoursPct), \"%). \"\r\n               \"This is a hot partition; \"\r\n               \"Consider redistribution of throughput <INSERT LINK TO DOC.>\"),\"\")\r\n| project PartitionKey, HotnessIndicator = OverallLabel, Recommendation\r\n| extend Link = iff(HotnessIndicator == \"✅ Normal\", \"\", \"https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-redistribute-throughput-across-partitions?tabs=nosql&pivots=azure-cli\")\r\n//| order by HotHoursPct desc, PeakRU_Pct desc\r\n\r\n",
+                                      "query": "let partitionKeyRangeId = {PartitionKeyRangeId}; \r\nlet OthersThreshold = 5.0;\r\nlet HotThreshold = 80.0;\r\n// Step 1: RU per PK per hour\r\nlet PerHour = \r\nCDBPartitionKeyRUConsumption \r\n{DatabaseCollectionFilterClause}\r\n| where PartitionKeyRangeId == partitionKeyRangeId\r\n| where isnotempty(PartitionKey)\r\n    | summarize RU_Usage = sum(RequestCharge) by Hour = bin(TimeGenerated, 1h), PartitionKey;\r\n// Step 2: Total RU and distinct PK count per hour\r\nlet HourTotals =\r\n    PerHour\r\n    | summarize \r\n        TotalRU_PerHour = sum(RU_Usage),\r\n        DistinctKeys    = dcount(PartitionKey)\r\n      by Hour;\r\n// Step 3: Per-hour percentage and skew label\r\nlet PerHourLabeled =\r\n    PerHour\r\n    | join kind=inner HourTotals on Hour\r\n    | extend RU_Percentage = round(toreal(RU_Usage) * 100.0 / toreal(TotalRU_PerHour), 2)\r\n    | extend FairSharePct  = round(100.0 / toreal(DistinctKeys), 2)\r\n    | extend SkewRatio     = round(RU_Percentage / FairSharePct, 1)\r\n    | extend HourLabel     = case(\r\n        RU_Percentage >= HotThreshold,  \"Hot\",\r\n //       RU_Percentage >= WarmThreshold, \"Warm\",\r\n        \"Normal\");\r\n// Step 4: Roll up across the full time window per partition key\r\nPerHourLabeled\r\n| summarize\r\n    TotalRU          = sum(RU_Usage),\r\n    TotalHours       = dcount(Hour),\r\n    HotHours         = dcountif(Hour, HourLabel == \"Hot\"),\r\n //   WarmHours        = dcountif(Hour, HourLabel == \"Warm\"),\r\n    NormalHours      = dcountif(Hour, HourLabel == \"Normal\"),\r\n    PeakRU_Pct       = round(max(RU_Percentage), 2),\r\n    AvgRU_Pct        = round(avg(RU_Percentage), 2)\r\n  by PartitionKey\r\n// Compute % of hours the key was hot\r\n| extend HotHoursPct  = round(toreal(HotHours)  * 100.0 / toreal(TotalHours), 1)\r\n// Overall verdict: Hot if it was hot in >10% of hours, else Normal\r\n| extend OverallLabel = case(\r\n    HotHoursPct  > 25.0, \"\ud83d\udd25 Hot\",\r\n    \"\u2705 Normal\")\r\n| project\r\n    PartitionKey,\r\n    OverallLabel,\r\n    HotHoursPct,    // % of hours this key was dominant (>80% of RUs)\r\n  //  WarmHoursPct,   // % of hours this key was warm (40\u201380% of RUs)\r\n    PeakRU_Pct,     // highest single-hour percent across one key\r\n    AvgRU_Pct,      // average % share across all hours\r\n    TotalRU,\r\n    TotalHours,\r\n    HotHours,\r\n   // WarmHours,\r\n    NormalHours\r\n| extend Recommendation = case(\r\n    OverallLabel == \"\ud83d\udd25 Hot\",\r\n        strcat(\"This partition key consumed over 80% of the container's RUs in \", tostring(HotHours), \" of \", tostring(TotalHours), \" hours (\", tostring(HotHoursPct), \"%). \"\r\n               \"This is a hot partition; \"\r\n               \"Consider redistribution of throughput <INSERT LINK TO DOC.>\"),\r\n    strcat(\"This partition key consumed an average of \", tostring(AvgRU_Pct), \"% of the container's RUs, peaking at \", tostring(PeakRU_Pct), \"%. \"\r\n           \"Traffic is well-distributed. No action needed.\"))\r\n| project PartitionKey, HotnessIndicator = OverallLabel, Recommendation\r\n| extend Link = iff(HotnessIndicator == \"\u2705 Normal\", \" N/A \", \"https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-redistribute-throughput-across-partitions?tabs=nosql&pivots=azure-cli\")\r\n//| order by HotHoursPct desc, PeakRU_Pct desc\r\n\r\n",
                                       "size": 0,
                                       "aggregation": 2,
                                       "showAnnotations": true,
@@ -4464,11 +4365,6 @@
                               "name": "group - 4"
                             }
                           ]
-                        },
-                        "conditionalVisibility": {
-                          "parameterName": "IsCDBPartitionKeyRUConsumptionEnabled",
-                          "comparison": "isEqualTo",
-                          "parameterValue": "true"
                         },
                         "name": "group - 7"
                       }
